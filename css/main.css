@@ -1,0 +1,184 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    color: #3e4348;
+}
+
+h1, h2, h3, h4, h5 {
+    color: #333;  
+    margin-bottom: 2rem;
+}
+
+h6 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+}
+
+img {
+    max-width: 100%;    
+}
+
+
+header {
+    background-image: url(../img/bg.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.navbar {
+    background-color: transparent;
+    transition: 1s;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.navbar a {
+    color: #fff;
+}
+
+.navbar-coloured {
+    background-color: rgba(39, 39, 39, 0.9);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    transition: 1s;
+}
+
+.navbar-coloured button {
+    color: #fff;
+    border-color: #fff;
+}
+
+.collapse {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#header-text {
+    padding-top: 40vh;
+    color: #fff;
+    max-width: 550px;
+}
+
+#header-text .fadeIn{
+    animation-delay: 1s;
+}
+
+#header-text h1 {
+    font-size: 3.5em;
+    color: #fff;
+    font-variant: small-caps;
+    
+}
+
+.bacground-img-div {
+    background-image: url(../img/me.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.about-me-bg {
+    height: 65vh;
+    background-attachment: fixed;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.about-me-bg .overlay {
+    background-color: rgba(0, 0, 0, 0.56);
+    height: 100%;
+    overflow: hidden;
+}
+
+.about-me {
+    margin-top: 15vh;
+    color: #fff;
+}
+
+.about-me h3 {
+    color: #fff;
+}
+
+#soundcloud .row {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+#soundcloud h3 {
+    margin-top: 25%    
+}
+
+#contact {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    color: #fff;
+}
+
+label {
+    margin-right: 15px;
+}
+
+input{
+    margin-right: 25px;
+}
+
+.fa {
+    margin: 0 auto;
+}
+
+.fa-facebook {
+    color: #3B5998;
+}
+
+.fa-twitter {
+    color: #4099FF;
+}
+
+.fa-soundcloud {
+    color: #ff3a00;
+}
+
+.fa-youtube {
+    color: #bb0000;
+}
+
+.fa-instagram {
+    color: #517fa4;
+}
+
+.social-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.contact-bg {
+    background-image: url(../img/letter-box.jpg);
+    background-position: bottom;
+}
+
+footer {
+    text-align: center;
+    padding-top: 20px;
+    background-color: #1c1c1c
+}
+
+footer .container p {
+    color: #777777;    
+}
+
+
+footer .container p a {
+    color: rgb(116, 191, 255);    
+}
