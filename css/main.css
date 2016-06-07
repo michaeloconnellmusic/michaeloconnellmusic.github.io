@@ -88,7 +88,6 @@ header {
 }
 
 .about-me-bg {
-    height: 65vh;
     background-attachment: fixed;
     overflow: hidden;
     max-width: 100%;
@@ -102,7 +101,13 @@ header {
 
 .about-me {
     margin-top: 15vh;
+    margin-bottom: 15vh;
     color: #fff;
+    visibility: hidden;
+}
+
+.fadeInUp {
+    visibility: visible;
 }
 
 .about-me h3 {
@@ -110,22 +115,35 @@ header {
 }
 
 #soundcloud .row {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
 }
 
-#soundcloud h3 {
-    margin-top: 25%    
+.soundcloud-plugin {
+    visibility: hidden;
+}
+
+.fadeInLeft {
+    visibility: visible;
+}
+
+.soundcloud-text {
+    margin-top: 10%;
+    visibility: hidden;
+}
+
+.fadeInRight {
+    visibility: visible;
 }
 
 #contact {
     padding-top: 60px;
     padding-bottom: 60px;
-    color: #fff;
 }
 
 label {
     margin-right: 15px;
+    color: #fff;
 }
 
 input{
@@ -134,6 +152,10 @@ input{
 
 .fa {
     margin: 0 auto;
+}
+
+.flipInX{
+    visibility: visible;
 }
 
 .fa-facebook {
@@ -181,4 +203,44 @@ footer .container p {
 
 footer .container p a {
     color: rgb(116, 191, 255);    
+}
+
+p a {
+    color: #ff8d8d;
+}
+
+p a:hover {
+    color: #a5efb0;
+    text-decoration: none;
+}
+
+.btn-collapse {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+#licenses {
+    padding-top: 10vh;
+    padding-bottom: 10vh;      
+}
+
+.btn {
+    white-space: nowrap;
+}
+
+
+@media screen and (max-width: 543px) {
+    body {
+        font-size: 12px;
+    }
+    section {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .btn {
+        white-space: normal;
+    }
 }

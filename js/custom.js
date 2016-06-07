@@ -28,3 +28,35 @@ $(".fa").mouseenter(function() {
 }).mouseleave(function() {
      $(this).removeClass("bounce");
 });
+
+$(window).scroll(function() {    
+    var scroll = $(window).scrollTop();
+
+    if (scroll >= 400) {
+        $("#about-me").addClass("fadeInUp");
+    }
+});
+
+$(window).scroll(function() {    
+    var scroll = $(window).scrollTop();
+
+    if (scroll >= 800) {
+        $(".soundcloud-plugin").addClass("fadeInLeft");
+    }
+});
+
+$(window).scroll(function() {    
+    var scroll = $(window).scrollTop();
+
+    if (scroll >= 800) {
+        $(".soundcloud-text").addClass("fadeInRight");
+    }
+});
+
+$(window).scroll(function() {    
+    var scroll = $(window).scrollTop();
+
+    if (scroll >= 1500) {
+        $(".fa").addClass("flipInX");
+    }
+});
