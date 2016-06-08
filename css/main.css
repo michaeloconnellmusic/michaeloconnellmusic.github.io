@@ -35,6 +35,10 @@ header {
     background-attachment: fixed;
 }
 
+.sent_header {
+    background-image: url(../img/sent.jpg);
+}
+
 .navbar {
     background-color: transparent;
     transition: 1s;
@@ -67,6 +71,18 @@ header {
     padding-top: 40vh;
     color: #fff;
     max-width: 550px;
+}
+
+#header-text-sent{
+    padding-top: 40vh;
+    color: #fff;
+    max-width: 550px;}
+
+#header-text-sent h1 {
+    font-size: 5.5em;
+    color: #fff;
+    font-variant: small-caps;
+    
 }
 
 #header-text .fadeIn{
