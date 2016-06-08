@@ -124,7 +124,8 @@
                         <label for="name">Full Name: </label><input id="naem" type="text" name="name" placeholder="Enter Your Name"><br>
                         <label for="email">Email address: </label><input id="email" type="email" name="_replyto" placeholder="Enter Your Email">
                         <br>
-                        <label for="license-type">License Type: </label><select id="license-type" name="_replyto" >
+                        <label for="license-type">License Type: </label><select id="license-type" name="license-type" >
+                           <option value="no_license">Not Contacting For a License</option>
                             <option value="multiple-basic">Multiple Basic</option>
                             <option value="unlimited" placeholder="unlimited">Unlimited</option>
                             <option value="exclusive">Exclusive</option>
@@ -132,8 +133,9 @@
                     </fieldset>
                     <fieldset class="form-group">
                         <label for="message">Your Message:</label>
-                        <textarea class="form-control" id="message" rows="5"></textarea>
+                        <textarea name="message" class="form-control" id="message" rows="5"></textarea>
                     </fieldset>
+                    <input type="text" name="_gotcha" style="display:none" />
                     <button type="submit" class="btn btn-primary">Submit</button>
                 </form>
             </div>
